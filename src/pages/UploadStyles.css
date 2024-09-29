@@ -1,0 +1,61 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container for the upload page with a background image */
+  .upload-background {
+    height: 100vh; /* Full height */
+    background-image: url('D:\final year\pdf-upload-site\public\upload pdf page.jpg'); /* Path to the background image */
+    background-size: cover; /* Cover the entire container */
+    background-repeat: no-repeat; /* No repetition */
+    background-position: center; /* Center the background image */
+    display: flex; /* Use flex to center content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  /* Content Styling */
+  .upload-content {
+    background-color: rgba(255, 255, 255, 0.85); /* White background with opacity */
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 600px; /* Limit the width */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2); /* Light shadow effect */
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .file-input {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+  }
+  
+  .upload-btn {
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .upload-btn:hover {
+    background-color: #45a049;
+  }
+  

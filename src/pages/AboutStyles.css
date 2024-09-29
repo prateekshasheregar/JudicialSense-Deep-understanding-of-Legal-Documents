@@ -1,0 +1,41 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* About Page Container */
+  .about-container {
+    height: 100vh; /* Full height */
+    background-image: url('D:\final year\pdf-upload-site\public\corporate-law.jpg'); /* Path to the background image */
+    background-size: cover; /* Cover the entire container */
+    background-repeat: no-repeat; /* No repetition */
+    background-position: center; /* Center the background image */
+    display: flex; /* Use flex to center content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  /* Content Styling */
+  .about-content {
+    background-color: rgba(255, 255, 255, 0.8); /* White background with opacity */
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 800px; /* Limit the width */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
